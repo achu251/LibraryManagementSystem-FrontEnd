@@ -72,4 +72,4 @@ function Contributionlist() {
   )
 }
 
-export default ContributionList
+export default Contributionlist
