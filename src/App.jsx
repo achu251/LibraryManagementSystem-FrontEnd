@@ -19,7 +19,7 @@ import AdminHome from './components/Admin/AdminHome';
 import AllBooks from './components/Admin/AllBooks';
 import AllUsers from './components/Admin/AllUsers';
 import Status from './components/Admin/Status';
-import ContributionList from './components/Admin/Contributionlist';
+import Contributionlist from './components/Admin/Contributionlist';
 import Profile from './components/Admin/Profile';
 
 
@@ -64,7 +64,7 @@ function App() {
   <Route path="admin-books" element={<AllBooks />} />
   <Route path="admin-users" element={<AllUsers />} />
   <Route path="admin-status" element={<Status />} />
-  <Route path="admin-contributions" element={<ContributionList />} />
+  <Route path="admin-contributions" element={<Contributionlist />} />
   <Route path="admin-profile" element={<Profile />} />
 </Route>
 
